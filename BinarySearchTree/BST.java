@@ -39,7 +39,7 @@ public class BST {
             LinkedList<BSTNode> newLinkedList = new LinkedList<BSTNode>();
             
             // Traverse the previous nodes
-            for (BSTNode node : previousNodes) 
+            for (BSTNode node : previousNodes)
             {
                 if (node.left != null) // If the node has a left
                 {
